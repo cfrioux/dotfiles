@@ -5,13 +5,7 @@
 ## Installation
 
 ```bash
-curl -Ls https://vupti.me/dotfiles | bash
-```
-
-or, expanded version:
-
-```bash
-curl -Ls "https://raw.githubusercontent.com/lrivallain/dotfiles/master/.dotfiles-scripts/install.sh" | bash
+curl -Ls "https://raw.githubusercontent.com/cfrioux/dotfiles/master/.dotfiles-scripts/install.sh" | bash
 ```
 
 ## Usage
@@ -41,7 +35,7 @@ git init $HOME/.cfg
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.cfg/.git/ --work-tree=$HOME'
 echo "alias dotfiles='/usr/bin/git --git-dir=$HOME/.cfg/.git/ --work-tree=$HOME'" >> $HOME/.zsh/aliases
 dotfiles config --local status.showUntrackedFiles no
-dotfiles remote add origin git@github.com:lrivallain/dotfiles.git
+dotfiles remote add origin git@github.com:cfrioux/dotfiles.git
 
 # adding a file
 dotfiles add .vimrc
