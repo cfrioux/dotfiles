@@ -1,9 +1,6 @@
 #!/bin/bash
 
 # Ensure to have zsh installed
-sudo apt update -qqy
-sudo apt install zsh -qqy
-
 
 export ZSH_CUSTOM=~/.oh-my-zsh/custom
 
